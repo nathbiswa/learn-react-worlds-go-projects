@@ -181,3 +181,21 @@
     border-right-color: var(--border);
   }
 }
+
+.cart{
+  border: 2px solid gold;
+  padding: 10px;
+  border-radius: 6px;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.countries{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.country-bg{
+  background-color: #d5ecd6;
+}
